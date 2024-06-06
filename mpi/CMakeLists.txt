@@ -1,0 +1,6 @@
+if(MPI_Fortran_HAVE_F08_MODULE)
+  add_executable(test-mpi f08/index_map_type.f90 f08/main.f90)
+else()
+  add_executable(test-mpi f90/index_map_type.f90 f90/main.f90)
+endif()
+target_link_libraries(test-mpi MPI::MPI_Fortran)
