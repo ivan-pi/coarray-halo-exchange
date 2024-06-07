@@ -1,5 +1,8 @@
 ### Intel Issues
 
+NOTE: These issues seem to have been resolved now with OneAPI 2024.1 and
+such environment tweaking is no longer necessary.
+
 Here are some specific issues with the Intel compiler that I encountered
 
 * By default the coarray tests were needlessly hammering the network
