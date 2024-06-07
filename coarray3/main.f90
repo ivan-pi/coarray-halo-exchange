@@ -1,1 +1,0 @@
-../coarray1/main.f90

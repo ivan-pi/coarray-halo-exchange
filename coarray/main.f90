@@ -81,8 +81,8 @@ program main
   end do
 
   !! Gather the off-process values
-  if (is_IOP) call system_clock(t1)
-  do j = 1, repeat
+  do j = 0, repeat
+    if (is_IOP .and. j == 1) call system_clock(t1)
     call imap%gather(array)
   end do
   if (is_IOP) then

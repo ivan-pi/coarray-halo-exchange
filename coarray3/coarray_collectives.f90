@@ -1,1 +1,0 @@
-../coarray1/coarray_collectives.f90
