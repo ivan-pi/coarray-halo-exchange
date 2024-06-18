@@ -75,8 +75,8 @@ Note that a fuller-featured, production `index_map_type` module with both
 MPI and coarray implementations can be found at
 https://github.com/nncarlson/index-map.
 
-Your comments are very much welcome; creating an issue in the issue tracker
-is the best way to provide feedback.
+Your comments are very much welcome; use the discussions tab to provide
+feedback.
 
 ## Reference MPI Implementation
 
