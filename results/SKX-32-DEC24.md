@@ -5,15 +5,15 @@ The hardware is a dual-socket Intel Xeon Platinum 8174 (codename "Skylake") with
 
 Reported average gather times are in msec.
 
-### NAG Fortran 7.2.7203
+### NAG Fortran 7.2 (Shin-Urayasu) Build 7203
 
-Mesh/images   |  MPI |  v1 |  v2 | v3 |  v4 |
-------|------|-----|-----|----|-----|
-B1/32 |  | | | | |
-B2/32 |  | | | | |
-B3/32 |  | | | | |
-B4/32 |  | | | | |
-B5/32 |  | | | | |
+Mesh/images   |  v1 |  v2 | v3 |  v4 |
+------|------|-----|-----|----|
+B1/32 | 0.200 | 0.878 | 0.248 | 0.895 |
+B2/32 | 0.223 | 0.904 | 0.268 | 0.838 |
+B3/32 | 0.279 | 0.893 | 0.291 | 0.873 |
+B4/32 | 0.321 | 0.840 | 0.246 | 0.810 |
+B5/32 | 0.600 | 1.03 | 0.547 | 0.827 |
 
 ### Intel Fortran 2023.2.0 (ifx) / Intel MPI 2021.11
 
