@@ -5,7 +5,7 @@ The hardware is a dual-socket Intel Xeon Platinum 8480+ (codename "Sapphire Rapi
 
 Reported average gather times are in msec. (Averaged over 1000 iterations.)
 
-### NAG Fortran 7.2.7203
+### NAG Fortran 7.2 (Shin-Urayasu) Build 7203
 
 Mesh/images |  v1  |  v2  |  v3  |  v4  |
 ------|-------|-------|--------|-------|
@@ -15,7 +15,7 @@ B3/32 | 0.109 | 0.894 | 0.0788 | 0.789 |
 B4/32 | 0.190 | 0.864 | 0.136  | 0.744 |
 B5/32 | 0.407 | 1.01  | 0.261  | 0.870 |
 
-### Intel Fortran 2023.2.0 (ifx) / Intel MPI 2021.11
+### Intel Fortran 2024.2.1 (ifx) / Intel MPI 2021.14.1
 
 Mesh/images |  MPI  |   v1  |  v2   |  v3 |  v4 |
 ------|--------|-------|-------|------|-------|
